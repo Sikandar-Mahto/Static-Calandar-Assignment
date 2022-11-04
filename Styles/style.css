@@ -1,0 +1,49 @@
+#calandar-container{
+    background-color: #150050;
+    border: solid 2px #3F3B6C;
+    box-shadow: 3px 3px 6px 0.5px rgb(158 152 152);
+    margin: 220px auto;
+    width: 500px;
+    height: 312px;
+}
+
+.calandar-month-year,.days,.date{
+    color: #f5f4f3;
+}
+
+li{
+    list-style-type: none;
+}
+
+.calandar-month-year>h1{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+
+.days>ul{
+    background-color: #6F38C5;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-gap: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.date>ul{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-gap: 20px;
+    margin: 20px;
+    text-align: center;
+
+}
+
+.grid-item-4{
+    background-color: #6F38C5;
+    border-radius: 100%;
+}
+
+.grid-item-1{
+    grid-column-start: 3;
+}
